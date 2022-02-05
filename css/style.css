@@ -51,6 +51,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.site-logo{
+.site-logo-head{
     font-family: 'Major Mono Display', monospace;
+    text-decoration: none;
 }
