@@ -1,0 +1,2 @@
+Patch/Remodel Notes:
+- Rethink color scheme: Less gradient background, use in hints/not at all instead of whole page for less visual attack
