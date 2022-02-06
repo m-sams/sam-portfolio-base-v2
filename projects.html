@@ -4,92 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>SAM'S SIDE | PROJECTS</title>
+    <title>SAM'S SIDE | PROJECTS </title>
 </head>
 
 <body>
-    <aside>
-        <<h1 class="site-logo"><a href="index.html" class="site-logo-head">SAM'S SIDE</a></h1>
-            <nav class="side-nav">
-                <ul>
-                    <li><a href="projects.html" target="_blank">PROJECTS</a></li>
-                    <li><a href="contacts.html" target="_blank">CONTACT ME</a></li>
-                </ul>
-        </nav>
-    </aside>
+    <div class="sidebar">
+        <div class="logo-content">
+            <div class="logo">
+                <i class='bx bxs-game' ></i>
+            <div class="logo-name">SAM'S SIDE</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt' ></i>
+                    <span class="links-name">HOME</span>
+                </a>
+                <span class="tooltip">HOME</span> 
+            </li>
 
-        <div class="shift">
-            <header class="projects-header">
-                    <h1>MY PROJECTS</h1>
-            </header>
-
-            <main id="projects">
-                
-                <section id="about-projects">
-                    <p> Sed faucibus turpis in eu mi bibendum. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Id aliquet risus feugiat in. Enim eu turpis egestas pretium aenean pharetra magna ac. Tincidunt ornare massa eget egestas purus viverra. Sed id semper risus in hendrerit gravida rutrum quisque. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Ut pharetra sit amet aliquam id. Augue mauris augue neque gravida in fermentum et. Sed blandit libero volutpat sed cras. Ut placerat orci nulla pellentesque dignissim enim sit. Turpis cursus in hac habitasse. Pretium nibh ipsum consequat nisl vel pretium lectus. Faucibus scelerisque eleifend donec pretium vulputate sapien. Scelerisque viverra mauris in aliquam sem fringilla ut. Bibendum arcu vitae elementum curabitur vitae. Erat imperdiet sed euismod nisi porta. </p>
-                </section>
-
-                <section id="project-tiles">
-                    <div id="card-1">
-                        <figure><img src="thumbnails/rand_plchold_1.png" alt="placeholder" class="preview"></figure>
-                        <div class="card-info">
-                            <h3 class="card-title"><a href="#">Title of Project</a></h3>
-                            <p class="about-card">Description of Project</p>
-                            <p class="last-updated">Last Updated:</p>
-                    </div>
-                    </div>
-
-                    <div id="card-2">
-                        <figure><img src="thumbnails/rand_plchold_2.png" alt="placeholder" class="preview"></figure>
-                        <div class="card-info">
-                            <h3 class="card-title"><a href="#">Title of Project</a></h3>
-                            <p class="about-card">Description of Project</p>
-                            <p class="last-updated">Last Updated:</p>
-                        </div>
-                    </div>
-
-                    <div id="card-3">
-                        <figure><img src="thumbnails/rand_plchold_3.png" alt="placeholder" class="preview"></figure>
-                        <div class="card-info">
-                            <h3 class="card-title"><a href="#">Title of Project</a></h3>
-                            <p class="about-card">Description of Project</p>
-                            <p class="last-updated">Last Updated:</p>
-                    </div>
-                    </div>
-
-                    <div id="card-4">
-                        <figure><img src="thumbnails/rand_plchold_4.png" alt="placeholder" class="preview"></figure>
-                        <div class="card-info">
-                            <h3 class="card-title"><a href="#">Title of Project</a></h3>
-                            <p class="about-card">Description of Project</p>
-                            <p class="last-updated">Last Updated:</p>
-                    </div>
-                    </div>
-
-                    <div id="card-5">
-                        <figure><img src="thumbnails/rand_plchold_5.jpg" alt="placeholder" class="preview"></figure>
-                        <div class="card-info">
-                            <h3 class="card-title"><a href="#">Title of Project</a></h3>
-                            <p class="about-card">Description of Project</p>
-                            <p class="last-updated">Last Updated:</p>
-                    </div>
-                    </div>
-
-                    <div id="card-6">
-                        <figure><img src="thumbnails/rand_plchold_6.jpg" alt="placeholder" class="preview"></figure>
-                        <div class="card-info">
-                            <h3 class="card-title"><a href="#">Title of Project</a></h3>
-                            <p class="about-card">Description of Project</p>
-                            <p class="last-updated">Last Updated:</p>
-                    </div>
-                    </div>
+            <li>
+                <a href="projects.html">
+                    <i class='bx bxs-folder-open'></i>
+                    <span class="links-name">PROJECTS</span>
+                </a>
+                 <span class="tooltip">PROJECTS</span> 
             
-            </section>
 
-        </main>
+            <li>
+                <a href="contacts.html">
+                    <i class='bx bxs-contact'></i>
+                    <span class="links-name">CONTACT</span>
+                </a>
+                <span class="tooltip">CONTACT</span> 
+            </li>
+        </ul>
+        <div class="profile-content">
+            <div class="profile">
+                <div class="profile-details">
+                     <img src="thumbnails\kenshin.jpg" alt="PROFILE PICTURE"> 
+                    <div class="name-job">
+                        <div class="name">Malachi Samuels</div>
+                        <div class="job">Field: Programming/Game Dev</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <section class="home-content">
+        <header class="banner">
+            <h2>MY WORK</h2>
+        </header>
+        <div class="home-content-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+        </div>
 
-    <script src="js/app.js"></script>
+        <section class="project-grid">
+        <div class="card-container">
+            <div id="card-1" class="card">
+                    <figure><img src="thumbnails\rand_plchold_1.png" alt="placeholder" class="preview"></figure>
+                     <div class="card-info">
+                        <h3 class="card-title"><a href="#">Title of Project</a></h3>
+                        <p class="about-card">Description of Project</p>
+                        <p class="last-updated">Last Updated:</p>
+                    </div>
+                </div>
+
+                <div id="card-2" class="card">
+                    <figure><img src="thumbnails\rand_plchold_2.png" alt="placeholder" class="preview"></figure>
+                    <div class="card-info">
+                        <h3 class="card-title"><a href="#">Title of Project</a></h3>
+                        <p class="about-card">Description of Project</p>
+                        <p class="last-updated">Last Updated:</p>
+                    </div>
+                </div>
+
+                <div id="card-3" class="card">
+                    <figure><img src="thumbnails\rand_plchold_3.png" alt="placeholder" class="preview"></figure>
+                    <div class="card-info">
+                        <h3 class="card-title"><a href="#">Title of Project</a></h3>
+                        <p class="about-card">Description of Project</p>
+                        <p class="last-updated">Last Updated:</p>
+                    </div>
+                </div>
+
+                <div id="card-4" class="card">
+                    <figure><img src="thumbnails\rand_plchold_4.png" alt="placeholder" class="preview"></figure>
+                    <div class="card-info">
+                        <h3 class="card-title"><a href="#">Title of Project</a></h3>
+                        <p class="about-card">Description of Project</p>
+                        <p class="last-updated">Last Updated:</p>
+                    </div>
+                </div>
+
+                 <div id="card-5" class="card">
+                    <figure><img src="thumbnails\rand_plchold_5.jpg" alt="placeholder" class="preview"></figure>
+                    <div class="card-info">
+                        <h3 class="card-title"><a href="#">Title of Project</a></h3>
+                        <p class="about-card">Description of Project</p>
+                        <p class="last-updated">Last Updated:</p>
+                    </div>
+                </div>
+
+                <div id="card-6" class="card">
+                    <figure><img src="thumbnails\rand_plchold_6.jpg" alt="placeholder" class="preview"></figure>
+                    <div class="card-info">
+                        <h3 class="card-title"><a href="#">Title of Project</a></h3>
+                        <p class="about-card">Description of Project</p>
+                        <p class="last-updated">Last Updated:</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    </section>
+
+    <script src="js\app.js"></script>
 </body>
 </html>

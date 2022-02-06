@@ -4,45 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>SAM'S SIDE | CONTACT </title>
 </head>
 
 <body>
-    <aside>
-        <h1 class="site-logo"><a href="index.html" class="site-logo-head">SAM'S SIDE</a></h1>
-            <nav class="side-nav">
-                <ul>
-                    <li><a href="projects.html" target="_blank">PROJECTS</a></li>
-                    <li><a href="contacts.html" target="_blank">CONTACT ME</a></li>
-                </ul>
-        </nav>
-    </aside>
+    <div class="sidebar">
+        <div class="logo-content">
+            <div class="logo">
+                <i class='bx bxs-game' ></i>
+            <div class="logo-name">SAM'S SIDE</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt' ></i>
+                    <span class="links-name">HOME</span>
+                </a>
+                <span class="tooltip">HOME</span> 
+            </li>
 
-    <div class="shift">
-        <header id="contact-header">
-            <h1>CONTACT ME</h1>
-        </header>
-
-        <main id="contact-page">
-            <section class="contact-about">
-                <p>Id venenatis a condimentum vitae. Nulla malesuada pellentesque elit eget gravida. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Nulla porttitor massa id neque aliquam vestibulum. Id faucibus nisl tincidunt eget nullam. Leo duis ut diam quam nulla porttitor. Nisi scelerisque eu ultrices vitae auctor eu. Adipiscing elit ut aliquam purus sit amet luctus. Pulvinar mattis nunc sed blandit libero volutpat sed. Nullam vehicula ipsum a arcu. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Nunc lobortis mattis aliquam faucibus. Magna sit amet purus gravida quis. Consequat ac felis donec et odio pellentesque diam volutpat commodo.</p>
-            </section>
-
-            <section id="contact-list">
-                <ul>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li>Email Me: malachi.samuels@stu.bmcc.cuny.edu</li>
-                </ul>
+            <li>
+                <a href="projects.html">
+                    <i class='bx bxs-folder-open'></i>
+                    <span class="links-name">PROJECTS</span>
+                </a>
+                 <span class="tooltip">PROJECTS</span> 
             
-            </section>
-        
-        </main>
-    </div>
 
-    <script src="js/app.js"></script>
+            <li>
+                <a href="contacts.html">
+                    <i class='bx bxs-contact'></i>
+                    <span class="links-name">CONTACT</span>
+                </a>
+                <span class="tooltip">CONTACT</span> 
+            </li>
+        </ul>
+        <div class="profile-content">
+            <div class="profile">
+                <div class="profile-details">
+                     <img src="thumbnails\kenshin.jpg" alt="PROFILE PICTURE"> 
+                    <div class="name-job">
+                        <div class="name">Malachi Samuels</div>
+                        <div class="job">Field: Programming/Game Dev</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="home-content">
+        <header class="banner">
+            <h2>CONTACT ME</h2>
+        </header>
+        <div class="home-content-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+        </div>
+
+        <section class="contact-list">
+            <ul>
+                <li>
+                <a href="#">
+                    <i class='bx bx-mail-send' ></i>
+                    <span class="links-name">maedacv@gmail.com</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#">
+                    <i class='bx bxl-linkedin' ></i>
+                    <span class="links-name">LinkedIn</span>
+                </a>
+            </li>
+
+             <li>
+                <a href="#">
+                    <i class='bx bxl-github' ></i>
+                    <span class="links-name">Github</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bxl-youtube' ></i>
+                    <span class="links-name">YouTube</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#">
+                    <i class='bx bxl-twitch' ></i>
+                    <span class="links-name">Twitch</span>
+                </a>
+            </li>
+
+             <li>
+                <a href="#">
+                    <i class='bx bxl-reddit' ></i>
+                    <span class="links-name">Reddit</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bxl-twitter' ></i>
+                    <span class="links-name">Twitter</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bxl-instagram' ></i>
+                    <span class="links-name">Instagram</span>
+                </a>
+            </li>
+        </section>
+    </section>
+
+    <script src="js\app.js"></script>
 </body>
 </html>

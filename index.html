@@ -4,34 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>SAM'S SIDE | HOME </title>
 </head>
 
 <body>
-    <aside>
-        <h1 class="site-logo"><a href="index.html" class="site-logo-head">SAM'S SIDE</a></h1>
-            <nav class="side-nav">
-                <ul>
-                    <li><a href="projects.html" target="_blank">PROJECTS</a></li>
-                    <li><a href="contacts.html" target="_blank">CONTACT ME</a></li>
-                </ul>
-        </nav>
-    </aside>
-
-        <div class="shift">
-         <header class="home-header">
-            <h1>WELCOME!</h1>
-        </header>
-
-            <main id="home">
-
-                <section id="about-home">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Fames ac turpis egestas integer eget aliquet nibh. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Elit sed vulputate mi sit. Nunc pulvinar sapien et ligula ullamcorper malesuada proin. Pellentesque dignissim enim sit amet venenatis urna. Non diam phasellus vestibulum lorem sed risus. Sem nulla pharetra diam sit amet nisl suscipit. Nam at lectus urna duis convallis. Commodo sed egestas egestas fringilla. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Tristique et egestas quis ipsum suspendisse. Duis ut diam quam nulla porttitor massa id neque aliquam. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Volutpat sed cras ornare arcu. Sit amet nisl purus in mollis nunc sed id semper. </p>
-                </section>
-
-            </main>
+    <div class="sidebar">
+        <div class="logo-content">
+            <div class="logo">
+                <i class='bx bxs-game' ></i>
+            <div class="logo-name">SAM'S SIDE</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
         </div>
-    <script src="js/app.js"></script>
+        <ul class="nav-list">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt' ></i>
+                    <span class="links-name">HOME</span>
+                </a>
+                <span class="tooltip">HOME</span> 
+            </li>
+
+            <li>
+                <a href="projects.html">
+                    <i class='bx bxs-folder-open'></i>
+                    <span class="links-name">PROJECTS</span>
+                </a>
+                 <span class="tooltip">PROJECTS</span> 
+            
+            <li>
+                <a href="contacts.html">
+                    <i class='bx bxs-contact'></i>
+                    <span class="links-name">CONTACT</span>
+                </a>
+                <span class="tooltip">CONTACT</span> 
+            </li>
+        </ul>
+        <div class="profile-content">
+            <div class="profile">
+                <div class="profile-details">
+                     <img src="thumbnails\kenshin.jpg" alt="PROFILE PICTURE"> 
+                    <div class="name-job">
+                        <div class="name">Malachi Samuels</div>
+                        <div class="job">Field: Programming/Game Dev</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="home-content">
+        <header class="banner">
+            <h2>WELCOME!</h2>
+        </header>
+        <div class="home-content-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas quasi adipisci velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+            velit a blanditiis cumque magnam tempora, doloribus ipsam aperiam fugit. Fugiat, eius aliquam sit sunt ratione eum qui!</p>
+        </div>
+    </section>
+
+    <script src="js\app.js"></script>
 </body>
 </html>
